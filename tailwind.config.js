@@ -28,6 +28,7 @@ module.exports = {
     "./src/pages/**/*.html",
     "./src/partials/**/*.html",
     "./src/scripts/**/*.js",
+    "./src/styles/**/*.css",
   ],
   safelist: [{ pattern: /^swiper-/ }],
   darkMode: "class",

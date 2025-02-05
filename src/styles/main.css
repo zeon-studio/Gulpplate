@@ -1,0 +1,15 @@
+@import "tailwindcss";
+
+@layer base {
+  @import "./base.css";
+}
+
+@layer components {
+  @import "./components.css";
+  @import "./navigation.css";
+  @import "./buttons.css";
+}
+
+@layer utilities {
+  @import "./utilities.css";
+}
